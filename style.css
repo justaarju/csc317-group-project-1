@@ -9,3 +9,47 @@ body {
     background-color: palevioletred;
     color:f0eff0;
 }
+/* ── NAVBAR ── */
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #0a1628;
+}
+
+.nav-logo {
+  font-size: 20px;
+  color: #c8e0f5;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu a {
+  color: #c8e0f5;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-menu a:hover {
+  color: #e8a020;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #c8e0f5;
+}
